@@ -9,7 +9,7 @@ function App() {
           Hi there
         </div>
         <div className="text-white text-2xl font-bold font-sans">
-          Added by Sex
+           NO
         </div>
       </div>
     </div>
