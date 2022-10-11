@@ -8,6 +8,9 @@ function App() {
         <div className="hover:font-serif bg-black text-2xl w-fit m-auto ">
           Hi there
         </div>
+        <div className="text-white text-2xl font-bold font-sans"> 
+          Added by Rishabh
+        </div>
       </div>
     </div>
   );
