@@ -6,9 +6,9 @@ import { Link } from 'react-router-dom';
 
 
 const navigation = [
-  { name: 'About', href: '/#About', current: true },
-  { name: 'Research', href: '/#Research', current: false },
-  { name: 'Funding', href: '/#Funding', current: false },
+  { name: 'About', href: '#About', current: true },
+  { name: 'Research', href: '#Research', current: false },
+  { name: 'Funding', href: '#Funding', current: false },
   { name: 'Group', href: '#', current: false },
   { name: 'Openings', href: '#', current: false },
   { name: 'Others', href: '#', current: false }
@@ -45,14 +45,18 @@ export default function Navbar() {
                         key={item.name}
                         href={item.href}
                         className={classNames(
-                          item.current ? 'text-gray-300' : 'text-white hover:text-gray-300',
+                          item.current ? 'text-gray-300 bg-white' : 'text-white hover:text-gray-300 bg-blue-600',
                           'px-3 py-2 rounded-md text-sm font-medium'
                         )}
                         aria-current={item.current ? 'page' : undefined}
                       >
+                        <div>
                         <Link to={item.href} >
-                        {item.name}
+                        
                         </Link>
+                        {item.name}
+                        </div>
+                        
                       </a>
                     ))}
                   </div>
