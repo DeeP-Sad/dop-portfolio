@@ -1,6 +1,6 @@
 import React from 'react'
 import search from "../Assets/Research.png"
-import Card from './Card'
+import Carous from "./Carous"
 
 const Research = () => {
   return (
@@ -14,7 +14,7 @@ const Research = () => {
         Research
         </div>
       </div>
-      <Card/>
+      <Carous/>
       </div>
   )
 }

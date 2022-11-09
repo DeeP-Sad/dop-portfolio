@@ -1,26 +1,24 @@
 import React from 'react'
-import Carousel from 'better-react-carousel'
 
 const Card = () => {
   return (
-    <Carousel cols={3} rows={1} gap={10} loop>
-      <Carousel.Item>
-        <div width="100%" className="h-11/12 bg-white font-thin text-2xl text-black">
-        <img width="100%" src="https://picsum.photos/800/600?random=1" />
-        MY name is rishabh 
-        </div>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img width="100%" src="https://picsum.photos/800/600?random=2" />
-      </Carousel.Item>
-      <Carousel.Item>
-        <img width="100%" src="https://picsum.photos/800/600?random=3" />
-      </Carousel.Item>
-      <Carousel.Item>
-        {/* anything you want to show in the grid */}
-      </Carousel.Item>
-      {/* ... */}
-    </Carousel>
+    <div className='bg-[#D9D9D9]'>
+    <div className='flex flex-col h-1/4'>
+    <div className='basis-1/4 flex-initial '>
+    <img src="https://picsum.photos/800/600?random=1" />
+    </div>
+    <div className='basis-1/8 p-4 bg-[#D9D9D9] text-black'>
+    <p className=' text-lg font-bold font-sans'>
+    Hydrogen based Power generation demonstration Project
+    {/* Lorem ipsum dolor sit amet, consectetur
+    adipiscing elit. Nunc vulputate libero et velit
+    interdum, ac aliquet odio mattis. Class aptent taciti
+    sociosqu ad litora torquent per conubia nostra, per inceptos
+     himenaeos. Curabitur tempus urna at turpis condimentum lobortis.  */}
+    </p>
+    </div>
+    </div>
+    </div>
   )
 }
 
