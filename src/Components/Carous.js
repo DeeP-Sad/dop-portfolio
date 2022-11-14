@@ -7,7 +7,7 @@ import { LanguageIcon } from '@heroicons/react/24/outline'
 
 const LArrow= ()=>{
   return(
-    <button className='w-8 h-8 top-1/2 right-full -translate-y-1/2 absolute inline-block'>
+    <button className='w-10 h-10 top-1/2 right-full -translate-y-1/2 absolute inline-block'>
       <img width='100%' src={leftArrow} />
       </button>
       )
@@ -15,7 +15,7 @@ const LArrow= ()=>{
 
 const RArrow= ()=>{
   return(
-    <button className='w-8 h-8 top-1/2 left-full -translate-y-1/2 absolute inline-block'>
+    <button className='w-10 h-10 top-1/2 left-full -translate-y-1/2 absolute inline-block'>
   <img width='100%' src={rightArrow} />
   </button>
   )
