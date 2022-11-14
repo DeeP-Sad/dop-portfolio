@@ -4,17 +4,19 @@ import Carous from "./Carous"
 
 const Research = () => {
   return (
-    <div className='text-white font-medium text-2xl'>
+    <div className='text-white font-medium w-full text-2xl'>
       {/* block div to keep a fixed distance from the fixed navbar */}
       <div className="block h-10 bg-black">
       </div>
-      <div className=' relative block h-1/3 py-5 font-semibold text-4xl sm:text-5xl '>
-        <img className='static inline-block w-8 mr-2 ml-1' src={search} />
-        <div className='static inline-block align-bottom'>
+      <div className='h-1/3 py-5 mt-5 w-fit font-semibold ml-20 text-4xl sm:text-5xl '>
+        <img className='inline-block w-8 mr-2 ml-1' src={search} />
+        <div className='inline-block align-bottom '>
         Research
         </div>
       </div>
+      <div className='w-5/6 mx-auto mt-8'>
       <Carous/>
+      </div>
       </div>
   )
 }

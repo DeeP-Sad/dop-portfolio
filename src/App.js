@@ -5,6 +5,11 @@ import Navbar from "./Components/Navbar";
 import About from "./Components/About";
 import Research from "./Components/Research";
 import Funding from "./Components/Funding";
+import Group from "./Components/Group";
+import Openings from "./Components/Openings"
+import Others from "./Components/Others"
+import Publications from "./Components/Publications"
+import Seminars from "./Components/Seminars"
 import {BrowserRouter, Route,Routes} from "react-router-dom";
 function App() {
   return (
@@ -22,6 +27,21 @@ function App() {
       </div>
       <div id="Funding" className="h-screen">
       <Funding/>
+      </div>
+      <div id="Group" className="h-screen">
+      <Group/>
+      </div>
+      <div id="Openings" className="h-screen">
+      <Openings/>
+      </div>
+      <div id="Others" className="h-screen">
+      <Others/>
+      </div>
+      <div id="Publications" className="h-screen">
+      <Publications/>
+      </div>
+      <div id="Seminars" className="h-screen">
+      <Seminars/>
       </div>
       </div>
       </div>

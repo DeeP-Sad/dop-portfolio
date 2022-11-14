@@ -9,13 +9,21 @@ const navigation = [
   { name: 'About', href: '#About', current: true },
   { name: 'Research', href: '#Research', current: false },
   { name: 'Funding', href: '#Funding', current: false },
-  { name: 'Group', href: '#', current: false },
-  { name: 'Openings', href: '#', current: false },
-  { name: 'Others', href: '#', current: false }
+  { name: 'Group', href: '#Group', current: false },
+  { name: 'Openings', href: '#Openings', current: false },
+  { name: 'Others', href: '#Others', current: false },
+  { name: 'Publications', href: '#Publications', current: false },
+  { name: 'Seminars', href: '#Seminars', current: false }
 ]
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
+}
+
+function currentItem(item){
+  console.log(item.name)
+  console.log(item.current)
+  item.current = !item.current
 }
 
 export default function Navbar() {
@@ -39,26 +47,33 @@ export default function Navbar() {
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                 
                 <div className="hidden sm:ml-6 sm:block">
-                  <div className="flex space-x-4">
+                  <div className="flex space-x-4"> 
                     {navigation.map((item) => (
-                      <a
+                      <div onClick={()=>{currentItem(item)}}>
+                        <a
                         key={item.name}
                         href={item.href}
                         className={classNames(
-                          item.current ? 'text-gray-300' : 'text-white hover:text-gray-300',
+                          item.current ? 'text-gray-500' : 'text-white hover:text-gray-300',
                           'px-3 py-2 rounded-md text-sm font-medium'
-                        )}
+                        )
+                      }
                         aria-current={item.current ? 'page' : undefined}
                       >
+
+                        {/* 
+                        Useless code
                         <div>
-                        <Link to={item.href} >
-                        
+                          <Link to={item.href} >
+                
                         </Link>
-                        {item.name}
-                        </div>
+                          </div> */}
                         
+                        {item.name}
                       </a>
+                      </div>
                     ))}
+                    
                   </div>
                 </div>
               </div>
