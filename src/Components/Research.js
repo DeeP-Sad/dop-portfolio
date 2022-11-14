@@ -14,7 +14,7 @@ const Research = () => {
         Research
         </div>
       </div>
-      <div className='w-5/6 mx-auto mt-8'>
+      <div className='w-5/6 relative mx-auto'>
       <Carous/>
       </div>
       </div>
