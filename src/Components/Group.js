@@ -7,7 +7,7 @@ const Group = () => {
       <div className="block h-10 bg-black">
       </div>
       <div>
-        Rishabh
+        Rishabh abc
       </div>
         Group
     </div>
