@@ -19,28 +19,28 @@ function App() {
       <Navbar></Navbar>
       </div>
       <div className="relative bg-black">
-      <div id="About" className="h-screen">
+      <div id="About" className="h-fit">
       <About/>
       </div>
-      <div id="Research" className="h-screen">
+      <div id="Research" className="h-fit">
       <Research/>
       </div>
-      <div id="Funding" className="h-screen">
+      <div id="Funding" className="h-fit">
       <Funding/>
       </div>
-      <div id="Group" className="h-screen">
+      <div id="Group" className="h-fit">
       <Group/>
       </div>
-      <div id="Openings" className="h-screen">
+      <div id="Openings" className="h-fit">
       <Openings/>
       </div>
-      <div id="Others" className="h-screen">
+      <div id="Others" className="h-fit">
       <Others/>
       </div>
-      <div id="Publications" className="h-screen">
+      <div id="Publications" className="h-fit">
       <Publications/>
       </div>
-      <div id="Seminars" className="h-screen">
+      <div id="Seminars" className="h-fit">
       <Seminars/>
       </div>
       </div>

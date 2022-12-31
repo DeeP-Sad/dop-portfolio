@@ -1,4 +1,4 @@
-import { Fragment } from 'react'
+import { Fragment, useEffect } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 import About from './About'
@@ -17,14 +17,17 @@ const navigation = [
 ]
 
 function classNames(...classes) {
+  
   return classes.filter(Boolean).join(' ')
 }
 
-function currentItem(item){
-  console.log(item.name)
-  console.log(item.current)
-  item.current = !item.current
-}
+
+// function currentItem(item){
+//   console.log(item.name)
+//   console.log(item.current)
+//   item.current = !item.current
+// }
+
 
 export default function Navbar() {
   return (
@@ -49,12 +52,12 @@ export default function Navbar() {
                 <div className="hidden sm:ml-6 sm:block">
                   <div className="flex space-x-4"> 
                     {navigation.map((item) => (
-                      <div onClick={()=>{currentItem(item)}}>
+                      <div >
                         <a
                         key={item.name}
                         href={item.href}
                         className={classNames(
-                          item.current ? 'text-gray-500' : 'text-white hover:text-gray-300',
+                          item.current='text-white hover:text-gray-300',
                           'px-3 py-2 rounded-md text-sm font-medium'
                         )
                       }
@@ -83,18 +86,20 @@ export default function Navbar() {
           <Disclosure.Panel className="sm:hidden">
             <div className="space-y-1 px-2 pt-2 pb-3">
               {navigation.map((item) => (
+                <div onClick={()=>{item.current=!item.current}}>
                 <Disclosure.Button
                   key={item.name}
                   as="a"
                   href={item.href}
                   className={classNames(
-                    item.current ? 'text-gray-300' : 'text-white hover:text-gray-300',
+                    item.current='text-white hover:text-gray-300',
                     'block px-3 py-2 rounded-md text-base font-medium'
                   )}
                   aria-current={item.current ? 'page' : undefined}
                 >
                   {item.name}
                 </Disclosure.Button>
+                </div>
               ))}
             </div>
           </Disclosure.Panel>
