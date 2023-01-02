@@ -1,4 +1,5 @@
 import React from 'react'
+import OpenCarousal from './OpenCarousal'
 
 const Openings = () => {
   return (
@@ -7,6 +8,9 @@ const Openings = () => {
     <div className="block h-10 bg-black">
     </div>
       Openings
+      <div className=' w-11/12 relative mx-auto mt-10'>
+      <OpenCarousal/>
+      </div>
   </div>
   )
 }

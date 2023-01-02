@@ -7,7 +7,7 @@ const Funding = () => {
       <div className="block h-70 bg-black">
       </div>
         <div className=' w-full'>
-          <div className=''>
+          <div className='md:text-center'>
             <div className=' relative md:-top-36 -left-9 md:-left-6 text-5xl md:text-8xl font-bold inline-block'>
               1. 
             </div>
@@ -37,7 +37,7 @@ const Funding = () => {
               </div> */}
           </div>
           </div>
-          <div className=' mt-7 md:mt-20'>
+          <div className=' mt-7 md:mt-20 md:text-center'>
             <div className=' relative md:-top-36 -left-9 md:-left-6 text-5xl md:text-8xl font-bold inline-block'>
               2. 
             </div>
@@ -67,7 +67,7 @@ const Funding = () => {
               </div> */}
           </div>
           </div>
-          <div className='mt-7 md:mt-20'>
+          <div className='mt-7 md:mt-20 md:text-center'>
             <div className=' relative md:-top-36 -left-9 md:-left-6 text-5xl md:text-8xl font-bold inline-block'>
               3. 
             </div>
