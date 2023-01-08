@@ -26,9 +26,9 @@ const Funding = () => {
               iaculis condimentum ac, vestibulum eu nisl.
               </div>
               <a
-                  class=" relative mt-5 md:mt-7 text-2xl font-mono md:text-4xl animate-border inline-block bg-white from-white via-blue-500 to-green-500 bg-[length:800%_800%] p-0.5 hover:bg-gradient-to-r"
+                  className=" relative mt-5 md:mt-7 text-2xl font-mono md:text-4xl animate-border inline-block bg-white from-white via-blue-500 to-green-500 bg-[length:800%_800%] p-0.5 hover:bg-gradient-to-r"
               >
-                <span class="block px-5 py-3 text-[#48C20E] bg-black"> ₹ 20,00,000 </span>
+                <span className="block px-5 py-3 text-[#48C20E] bg-black"> ₹ 20,00,000 </span>
               </a>
               {/* <div className='relative mt-5 text-left w-fit md:mt-10 text-base md:text-xl font-light from-neutral-200 border-white border-2 '>
               <div className=' p-2 text-center'>
@@ -56,9 +56,9 @@ const Funding = () => {
               iaculis condimentum ac, vestibulum eu nisl.
               </div>
               <a
-                  class=" relative mt-5 md:mt-7 text-2xl font-mono md:text-4xl animate-border inline-block bg-white from-white via-blue-500 to-green-500 bg-[length:800%_800%] p-0.5 hover:bg-gradient-to-r"
+                  className=" relative mt-5 md:mt-7 text-2xl font-mono md:text-4xl animate-border inline-block bg-white from-white via-blue-500 to-green-500 bg-[length:800%_800%] p-0.5 hover:bg-gradient-to-r"
               >
-                <span class="block px-5 py-3 text-[#48C20E] bg-black"> ₹ 20,00,000 </span>
+                <span className="block px-5 py-3 text-[#48C20E] bg-black"> ₹ 20,00,000 </span>
               </a>
               {/* <div className='relative mt-5 text-left w-fit md:mt-10 text-base md:text-xl font-light from-neutral-200 border-white border-2 '>
               <div className=' p-2 text-center'>
@@ -86,9 +86,9 @@ const Funding = () => {
               iaculis condimentum ac, vestibulum eu nisl.
               </div>
               <a
-                  class=" relative mt-5 md:mt-7 text-2xl font-mono md:text-4xl animate-border inline-block bg-white from-white via-blue-500 to-green-500 bg-[length:800%_800%] p-0.5 hover:bg-gradient-to-r"
+                  className=" relative mt-5 md:mt-7 text-2xl font-mono md:text-4xl animate-border inline-block bg-white from-white via-blue-500 to-green-500 bg-[length:800%_800%] p-0.5 hover:bg-gradient-to-r"
               >
-                <span class="block px-5 py-3 text-[#48C20E] bg-black"> ₹ 20,00,000 </span>
+                <span className="block px-5 py-3 text-[#48C20E] bg-black"> ₹ 20,00,000 </span>
               </a>
               {/* <div className='relative mt-5 text-left w-fit md:mt-10 text-base md:text-xl font-light from-neutral-200 border-white border-2 '>
               <div className=' p-2 text-center'>

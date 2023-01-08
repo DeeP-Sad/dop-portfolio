@@ -22,7 +22,7 @@ const LArrow= ()=>{
 
 const OpenCarousal = () => {
   return (
-    <Carousel cols={1} rows={1} gap={10} showDots={true} arrowLeft={LArrow} arrowRight={RArrow} loop>
+    <Carousel cols={1} rows={1} gap={10} showDots={false} arrowLeft={LArrow} arrowRight={RArrow} loop>
       <Carousel.Item>
         {/* <div width="85%" className="bg-white font-thin text-2xl text-black">
         <div>
