@@ -6,6 +6,11 @@ const Funding = () => {
       {/* block div to keep a fixed distance from the fixed navbar */}
       <div className="block h-70 bg-black">
       </div>
+      <div className='h-1/3 py-5 mt-5 w-fit font-semibold ml-20 text-4xl sm:text-5xl '>
+        <div className='inline-block align-bottom '>
+        <div className='inline text-green-500 text-4xl'>₹ </div>Funding
+        </div>
+      </div>
         <div className=' w-full'>
           <div className='md:text-center'>
             <div className=' relative md:-top-36 -left-9 md:-left-6 text-5xl md:text-8xl font-bold inline-block'>
