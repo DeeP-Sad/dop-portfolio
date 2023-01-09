@@ -7,6 +7,7 @@ const About = () => {
       <div className="block h-10 bg-black"></div>
       About Start
     </div>
+    
   );
 };
 
